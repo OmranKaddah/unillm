@@ -1,0 +1,19 @@
+:root {
+  --md-primary-fg-color: #0b7285;
+  --md-primary-fg-color--light: #1098ad;
+  --md-primary-fg-color--dark: #0a5568;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: 0.01em;
+}
+
+.md-typeset code {
+  border-radius: 0.25rem;
+}
+
+.md-content__inner {
+  max-width: 980px;
+}

@@ -1,0 +1,51 @@
+site_name: unillm
+site_description: Unified C++23 SDK and local proxy for OpenAI, Anthropic, Gemini, and NVIDIA NIM.
+site_url: https://OmranKaddah.github.io/unillm/
+repo_url: https://github.com/OmranKaddah/unillm
+repo_name: OmranKaddah/unillm
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: teal
+      accent: cyan
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Configuration: configuration.md
+  - API Guide: api-guide.md
+  - Examples:
+    - Basic Usage: examples/basic.md
+    - NVIDIA NIM Contact Parser: examples/nvidia-nim-contact-parser.md
+  - API Reference:
+    - Overview: api/index.md
+    - Generated Reference (Doxygen): api/doxygen.md

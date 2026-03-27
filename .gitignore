@@ -1,0 +1,8 @@
+.env
+build/
+build-modules/
+site/
+docs/api/doxygen/
+__pycache__/
+*.pyc
+.DS_Store
