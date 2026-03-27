@@ -13,6 +13,10 @@
 #include <unordered_map>
 #include <vector>
 
+/**
+ * @file unillm.hpp
+ * @brief Core public SDK API for unified LLM access.
+ */
 namespace unillm {
 
 /**

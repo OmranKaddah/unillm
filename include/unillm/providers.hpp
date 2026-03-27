@@ -2,6 +2,10 @@
 
 #include "unillm/unillm.hpp"
 
+/**
+ * @file providers.hpp
+ * @brief Public provider catalog and capability metadata.
+ */
 namespace unillm {
 
 /**

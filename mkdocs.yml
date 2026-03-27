@@ -43,9 +43,11 @@ nav:
   - Getting Started: getting-started.md
   - Configuration: configuration.md
   - API Guide: api-guide.md
+  - Releases: releases.md
   - Examples:
     - Basic Usage: examples/basic.md
     - NVIDIA NIM Contact Parser: examples/nvidia-nim-contact-parser.md
   - API Reference:
     - Overview: api/index.md
+    - Public Headers: api/public-headers.md
     - Generated Reference (Doxygen): api/doxygen.md

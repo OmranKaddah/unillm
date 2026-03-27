@@ -7,6 +7,10 @@
 #include <string>
 #include <unordered_map>
 
+/**
+ * @file proxy.hpp
+ * @brief Public proxy application and server API.
+ */
 namespace unillm {
 
 /**

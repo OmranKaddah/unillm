@@ -2,6 +2,10 @@
 
 `unillm` is a C++23 unified SDK and local proxy for multiple LLM providers.
 
+- Documentation: https://omrankaddah.github.io/unillm/
+- API reference (Doxygen): https://omrankaddah.github.io/unillm/api/doxygen/
+- Releases: https://github.com/OmranKaddah/unillm/releases
+
 ## Features
 
 - Unified client for OpenAI, Anthropic, Gemini, and Nvidia NIM
@@ -49,11 +53,32 @@ Output:
 - Static site: `site/`
 - Doxygen pages inside the site: `site/api/doxygen/`
 
+Key docs:
+
+- Docs home: `https://omrankaddah.github.io/unillm/`
+- API index: `https://omrankaddah.github.io/unillm/api/`
+- Generated API from public headers: `https://omrankaddah.github.io/unillm/api/doxygen/`
+
 To publish on GitHub Pages:
 
 1. Set `site_url`, `repo_url`, and `repo_name` in `mkdocs.yml`.
 2. Push to `main` (or run the `docs` workflow manually).
 3. Enable `Settings -> Pages -> Build and deployment -> GitHub Actions`.
+
+## Releases
+
+Releases are published automatically when a Git tag matching `v*` is pushed.
+
+Example:
+
+```bash
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+Release page:
+
+- `https://github.com/OmranKaddah/unillm/releases`
 
 ## Config
 
